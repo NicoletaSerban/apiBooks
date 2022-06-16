@@ -13,9 +13,9 @@
 
     <h2>List of books:</h2>
     <ul>
-        <% for(let [key, value] of Object.entries(info)){%>
+        <% for(let i=0; i< info.length; i++){%>
             <li>
-        <span><%= key %></span>
+        <span><%= info[i].name %></span>
         
         </li>
         <%}  %>  
